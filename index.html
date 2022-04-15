@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="syle.css">
+  <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Stats preview card component</title>
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -12,34 +12,33 @@
   </style>
 </head>
 <body>
-  <main>
+  <main class="main">
     <div class="card">
-      <img class="card__img" src="./images/image-header-desktop.jpg" alt="image header">
-      
       <div class="card__content">
-        <h1 class="card__heading"> 
-          Get insights that help your business grow.
+        <h1 class="card__heading card__heading--accent-color"> 
+          Get <span>insights</span> that help your business grow.
         </h1>
         <p class="card__body">
           Discover the benefits of data analytics and make better decisions regarding revenue, customer 
           experience, and overall efficiency.
         </p>
+        <div class="card__stats">
+          <div>
+            <span class="card__value">10k+</span>
+            <span class="card__text">COMPANIES</span>
+          </div>
+          <div>
+            <span class="card__value">314</span>
+            <span class="card__text">TEMPLATES</span>
+          </div>
+          <div>
+            <span class="card__value">12m+</span>
+            <span class="card__text">QUERIES</span>
+          </div>
+        </div>
       </div>
-
-      <div class="card__stats">
-        <div>
-          <span class="card__value">10k+</span>
-          companies
-        </div>
-        <div>
-          <span class="card__value">314</span>
-          templates
-        </div>
-        <div>
-          <span class="card__value">12m+</span>
-          queries
-        </div>
-      </div>
+    
+      <div class="card__img-section"></div>
     </div>
   </main>
 
