@@ -86,8 +86,9 @@ body {
   font-weight: 500;
 }
 
-
-
+.card__stats div:last-child {
+  margin-right: 24px;
+}
 
 
 /*
@@ -121,6 +122,10 @@ body {
 
   .card__heading {
     font-size: 1.56rem;
+  }
+
+  .card__stats div:last-child {
+    margin-right: 0;
   }
 }
 
