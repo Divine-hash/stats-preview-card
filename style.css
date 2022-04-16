@@ -40,7 +40,7 @@ body {
 
 .card {
   display: flex;
-  width: 70%;
+  max-width: 950px;
   background: hsl(244, 38%, 16%);
   border-radius: 5px;
   overflow: hidden; /* hides image overflow */
