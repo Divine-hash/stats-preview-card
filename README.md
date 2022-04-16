@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/stats-preview-card-screenshot.png)
+![](./images/stats-card-screenshot.png)
 
 ### Links
 
