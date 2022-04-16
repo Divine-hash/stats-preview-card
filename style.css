@@ -30,8 +30,6 @@ body {
 
 
 
-
-
 /*
 ===================================
   content styling
@@ -69,8 +67,7 @@ body {
 
 .card__stats {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  gap: 19%;
 }
 
 .card__value {
@@ -86,9 +83,7 @@ body {
   font-weight: 500;
 }
 
-.card__stats div:last-child {
-  margin-right: 24px;
-}
+
 
 
 /*
@@ -96,6 +91,7 @@ body {
   Background image styling
 ===================================
 */
+
 .card__img-section {
   position: relative;
   width: 50%;
@@ -114,6 +110,15 @@ body {
 }
 
 
+
+
+
+/*
+===================================
+  Media Queries
+===================================
+*/
+
 @media (max-width: 1025px) {
   .card {
     margin: 50px 0;
@@ -124,8 +129,9 @@ body {
     font-size: 1.56rem;
   }
 
-  .card__stats div:last-child {
-    margin-right: 0;
+  .card__stats {
+    gap: 0;
+    justify-content: space-between;
   }
 }
 
